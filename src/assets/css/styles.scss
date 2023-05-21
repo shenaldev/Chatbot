@@ -1,0 +1,32 @@
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+.app {
+  background: url("../img/moon-bg.svg"), linear-gradient(45deg, rgb(0 0 0), rgb(0 30 86));
+  background-size: cover;
+  background-repeat: no-repeat;
+  .card {
+    box-shadow: 0px 0px 20px 0px rgba(98, 0, 255, 0.158);
+  }
+}
+
+/***
+CUSTOM SCROLL BAR
+****/
+::-webkit-scrollbar {
+  width: 2px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #7d2cff;
+  border-radius: 8px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #4530ff;
+}
