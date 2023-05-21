@@ -48,11 +48,13 @@ function App() {
 
   return (
     <div className="app w-screen h-screen grid place-items-center">
-      <Card>
-        <Header />
-        <ChatBox onAdd={addUserMessage} />
-        <Messages messages={messageList} />
-      </Card>
+      <div className="mx-4">
+        <Card>
+          <Header />
+          <ChatBox onAdd={addUserMessage} />
+          <Messages messages={messageList} />
+        </Card>
+      </div>
     </div>
   );
 }

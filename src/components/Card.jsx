@@ -4,7 +4,7 @@ function Card(props) {
 
   return (
     <div
-      className={`card relative bg-white max-w-xs min-w-[20rem] lg:max-w-sm lg:min-w-[24em] min-h-[90vh] max-h-[26rem] px-4 lg:px-8 py-6 lg:py-8 rounded-md`}
+      className={`card relative bg-white max-w-full min-w-[90vw] lg:max-w-sm lg:min-w-[24em] min-h-[90vh] max-h-[26rem] px-4 lg:px-8 py-6 lg:py-8 rounded-md`}
     >
       {props.children}
     </div>
